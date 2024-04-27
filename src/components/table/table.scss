@@ -1,0 +1,36 @@
+.table{
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.35);
+    padding: 20px;
+    margin: 20px;
+    .listTitle{
+        font-weight: 500;
+        color: grey;
+        margin-bottom: 15px;
+     }
+    .cellAction{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        .viewButton{
+            display: flex;
+            align-items: center;
+            border: 1px solid royalblue;
+            color: royalblue;
+            padding: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            
+        }
+        .deleteButton{
+            display: flex;
+            align-items: center;
+            border: 1px solid red;
+            padding: 5px;
+            color: red;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}
